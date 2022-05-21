@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Detail</title>
+</head>
+<body>
+<a href="{% url 'tasks' %}">Home</a>
+<h1>{{ task.title }}</h1>
+<p>Task Created: {{ task.created }}</p>
+<p>Task Detail: {{ task.description }}</p>
+
+</body>
+</html>
