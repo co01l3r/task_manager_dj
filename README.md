@@ -6,14 +6,8 @@
 
 ## Installation
 
-You need a python and django installed on your machine.
+You need a python and django installed on your machine, recommend virtual env as well.
  
-I recommend to use virtual environment from venv package in the project folder for all that
-1. python3 -m venv <venv_name>
-activate the environment and continue. 
-2. source <venv_name>/bin/activate
-   (this might be different, if you are using custom shell such as fish or zsh)
-
 for debian in terminal:
 1. sudo apt update
 2. sudo apt install python3-django
@@ -40,7 +34,4 @@ Operate app:
 7. by clicking on 'edit' button, a prefilled form will be loaded for you to modify existing data in the dask
 8. by clicking on 'delete' button, task will be deleted
 
-## Contributors
-
-- Jakub Lohnický
 
