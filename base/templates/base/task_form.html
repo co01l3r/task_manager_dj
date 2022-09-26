@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Add Task</title>
-</head>
+{% extends 'base/main.html' %}
+{% block content %}
+
 <body>
 
 <a href="{% url 'tasks' %}">Home</a>
@@ -14,4 +11,5 @@
 </form>
 
 </body>
-</html>
+
+{% endblock content %}

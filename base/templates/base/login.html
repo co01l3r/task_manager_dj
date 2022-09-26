@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-</head>
+{% extends 'base/main.html' %}
+{% block content %}
+
 <body>
 
 <p>Login:</p>
@@ -16,4 +13,5 @@
 <a href="{% url 'register' %}">Create new</a>
 
 </body>
-</html>
+
+{% endblock content %}

@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Task Manager</title>
-</head>
+{% extends 'base/main.html' %}
+{% block content %}
+
 <body>
 
 {% if request.user.is_authenticated %}
@@ -32,4 +29,5 @@
 </table>
 
 </body>
-</html>
+
+{% endblock content %}
