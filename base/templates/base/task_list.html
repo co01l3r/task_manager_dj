@@ -34,11 +34,13 @@
                     {{ task }}
                 </a>
             </div>
-
-        </div>
     {% endif %}
-<a class="update-link" href="{% url 'task-update' task.id %}">&#x270E;</a>
-<a class="delete-link" href="{% url 'task-delete' task.id %}">&#x2613;</a>
+    </div>
+
+    <div>
+        <a class="update-link" href="{% url 'task-update' task.id %}">&#x270E;</a>
+        <a class="delete-link" href="{% url 'task-delete' task.id %}">&#x2613;</a>
+    </div>
 </div>
 {% empty %}
     <h3>no tasks added yet</h3>
