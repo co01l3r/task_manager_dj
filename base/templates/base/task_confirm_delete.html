@@ -2,12 +2,13 @@
 {% block content %}
 
 <body>
-
-<a href="{% url 'tasks' %}">Back</a>
+<div class="header-bar">
+<a href="{% url 'tasks' %}">&#8592; Home</a>
+</div>
 <form method="POST">
     {% csrf_token %}
     <p>Confirm delete: {{ task.title }}?</p>
-    <input type="submit" value="Delete">
+    <input class="button" type="submit" value="Delete">
 </form>
 
 </body>
