@@ -16,8 +16,9 @@
 
 <body>
 
-
-<a href="{% url 'task-create' %}">+</a>
+<div class="task-create-icon">
+    <a href="{% url 'task-create' %}">&#x2B;</a>
+</div>
 {% for task in tasks %}
     <div class="task-wrapper">
     {% if task.complete %}
