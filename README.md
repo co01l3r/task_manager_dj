@@ -1,5 +1,5 @@
 # Task Manager
-very simple task manager
+simple task manager
 
 #### how to use:
 ```python
