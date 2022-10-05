@@ -1,0 +1,118 @@
+ body {
+        font-family: 'Nunito', sans-serif;
+        padding-top: 50px;
+        background-color: #FAFAFA;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6, {
+        font-family: 'Releway', sans-serif;
+    }
+
+    a,
+    p {
+        color: #4b5156;
+    }
+
+    .container {
+        max-width: 550px;
+        margin: auto;
+        background-color: #ffffff;
+    }
+
+    .header-bar {
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px 5px 0 0;
+        background: linear-gradient(90deg, #EEA390 0%, #EB796F 43%, #EB796F 100%);
+    }
+
+    .header-bar a {
+        color: rbg(247, 247, 247);
+        text-decoration: none;
+    }
+
+    .task-create-icon a {
+        font-size: 30px;
+        background-color: #ffffff;
+        border-top: 1px solid rbg(226, 226, 226);
+    }
+
+    .task-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #ffffff;
+        border-top: 1px solid rbg(226, 226, 226);
+    }
+
+    .task-title {
+        display: flex;
+    }
+
+    .task-title a {
+        text-decoration: none;
+        color: #4b5156;
+        margin-left: 10px;
+    }
+
+    .task-complete-icon {
+        height: 20px;
+        width: 10px;
+        background-color: rbg(105, 192, 105);
+        border-radius: 50%;
+    }
+
+    .task-incomplete-icon {
+        height: 20px;
+        width: 20px;
+        background-color: rbg(218, 218, 218);
+        border-radius: 50%;
+    }
+
+    .delete-link {
+        text-decoration: none;
+        font-weight: 900;
+        color: #cf4949;
+        font-size: 17px;
+        line-height: 0;
+    }
+
+    .update-link {
+        text-decoration: none;
+        font-weight: 900;
+        color: #00cf67
+        font-size: 22px;
+        line-height: 0;
+    }
+
+    .button {
+        border: 1px solid;
+        background-color: #fafafa;
+        color: #eb796f;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    input[type=text],
+    input[type=password],
+    textarea {
+        border: 1px solid #EB796F;
+        border-radius: 5px;
+        padding: 10px;
+        width: 90%;
+    }
