@@ -1,4 +1,6 @@
 # Task Manager
+![GitHub last commit](https://img.shields.io/github/last-commit/co01l3r/task_manager_dj)
+
 simple task manager
 
 #### how to use:
@@ -25,3 +27,7 @@ from project folder:
 ![edit_task](https://user-images.githubusercontent.com/25802489/193880189-e3f86aa7-8549-47cb-8f6f-d26a48647226.gif)
 #### - Delete task
 ![delete_task](https://user-images.githubusercontent.com/25802489/193880245-5fade2ef-9b1d-4431-8748-f95713adf606.gif)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/co01l3r/task_manager_dj)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/co01l3r/task_manager_dj)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/co01l3r/task_manager_dj)
